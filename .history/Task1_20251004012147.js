@@ -7,10 +7,8 @@ function findElement(arr, target) {
         }
         else if (arr[mid] < target) {
             left = mid + 1;
-        }
-        else {
-            right = mid - 1;
-        }
+        
+        else right = mid - 1;
     }
     return "NO";
 }

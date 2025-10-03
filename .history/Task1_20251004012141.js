@@ -5,12 +5,8 @@ function findElement(arr, target) {
         if (arr[mid] === target) {
             return "YES";
         }
-        else if (arr[mid] < target) {
-            left = mid + 1;
-        }
-        else {
-            right = mid - 1;
-        }
+        else if (arr[mid] < target) left = mid + 1;
+        else right = mid - 1;
     }
     return "NO";
 }
