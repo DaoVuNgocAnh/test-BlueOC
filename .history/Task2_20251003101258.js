@@ -1,3 +1,0 @@
-function HarvestSeason(arr){
-    let 
-}
