@@ -10,7 +10,6 @@ function findElement(arr, target) {
         }
         else {
             right = mid - 1;
-        }
     }
     return "NO";
 }
