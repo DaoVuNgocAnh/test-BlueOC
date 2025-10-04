@@ -22,3 +22,14 @@ console.log(findElement([], 3));
 console.log(findElement([1, 2, 2, 2, 3], 2));  
 console.log(findElement([1, 3, 5], 5));        
 
+// Unit Test
+function testFindElement() {
+    console.assert(findElement([1, 3, 5, 7, 9], 5) === "YES");
+    console.assert(findElement([2, 4, 6, 8, 10], 1) === "NO");
+    console.assert(findElement([], 3) === "NO");
+    console.assert(findElement([1, 2, 2, 2, 3], 2) === "YES");
+    console.assert(findElement([1, 3, 5], 4) === "NO");
+    console.log("Tất cả test case pass!");
+}
+
+testFindElement();
